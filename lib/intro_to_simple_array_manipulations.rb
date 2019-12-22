@@ -1,8 +1,9 @@
+
 def using_push(array, string)
-  array.push(string)
+ array.push(string)
 end
 
-def using_unshift(array, string)
+def using_unshift(array,string)
   array.unshift(string)
 end
 
@@ -17,16 +18,16 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  first_element = array.shift()
-  first_element
+  first_item = array.shift()
+  first_item
 end
 
 def shift_with_args(array)
   first_two = array.shift(2)
   first_two
 end
-  
-def using_concat(array_one, array_two)  
+
+def using_concat(array_one, array_two)
   array_one.concat(array_two)
 end
 
@@ -39,22 +40,19 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  array.flatten 
+  array.flatten
 end
 
-def using_delete(array, string)
+
+def using_delete(array,string)
   array.delete(string)
 end
 
-def using_delete_at(array, integer)
+def using_delete_at(array,integer)
   array.delete_at(integer)
 end
 
-#  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-#    deleted_robot = using_delete_at(famous_robots, 2)
-#    expect(deleted_robot).to eq("Robocop")
-#  end
-
+  
   
   
   
